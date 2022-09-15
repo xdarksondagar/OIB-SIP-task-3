@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="to_do">
+        <div class="input-container">
+            <input type="text" class="input title" required placeholder="title">
+            <div class="deco-1"></div>
+            <div class="deco-2">Fill this out first</div>
+            <textarea name="description" cols="20" rows="8" placeholder="description"
+                class="input description"></textarea>
+            <button type="submit" class="save-btn">Save</button>
+        </div>
+        <div class="list">
+            <div class="list-headers">
+                <h2>Title</h2>
+                <h2>Description</h2>
+                <button class="del_all">
+                    <h2>Delete All</h2>
+                </button>
+            </div>
+            <div class="list-items">
+                <!-- <div class="list-item">
+                    <span class="title_span">wake</span>
+                    <span class="desc_span">wake</span>
+                    <button class="delete"><img src="./cross.svg" alt="delete"></button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
